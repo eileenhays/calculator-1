@@ -18,7 +18,7 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     """Divide the first input by the second, returning a floating point."""
-    return float(num1 / num2)
+    return float(num1) / float(num2)
 
 def square(num1):
     """Return the square of the input."""
@@ -36,3 +36,14 @@ def power(num1, num2):
 def mod(num1, num2):
     """Return the remainder of num1 / num2."""
     return num1%num2
+
+num1 = 10
+num2 = 3
+print add(num1, num2)
+print subtract(num1, num2)
+print multiply(num1, num2)
+print divide(num1, num2)
+print square(num1)
+print cube(num1)
+print power(num1, num2)
+print mod(num1, num2)
